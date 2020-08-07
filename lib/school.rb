@@ -11,7 +11,13 @@ class School
   
   attr_writer :add_student
   
-  def add_student(name, age)
+  def add_student(name, grade)
+    @add_student = add_student
+  end
+  
+  def add_student(name, grade)
+    
+  end
   
 
   
