@@ -22,7 +22,9 @@ class School
     @roster.each do |grade, name|
       grade.sort
   end
+
   @roster
+end
 end
 
 #       @school.add_student("Jack Bauer", 7)
