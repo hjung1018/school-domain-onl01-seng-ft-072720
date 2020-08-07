@@ -16,8 +16,6 @@ class School
     @roster[grade] << name
   end
   
-
-  
 end
 
 # require 'spec_helper'
