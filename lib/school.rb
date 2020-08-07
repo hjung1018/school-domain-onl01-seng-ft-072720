@@ -16,6 +16,9 @@ class School
     @roster[grade] << name
   end
   
+  def sort
+    @roster.sort
+  end
 end
 
 # require 'spec_helper'
