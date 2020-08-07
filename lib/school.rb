@@ -11,7 +11,7 @@ class School
   
   attr_writer :add_student
   
-  ROSTER = {}
+  a
   
 end
 
