@@ -1,6 +1,6 @@
 class School
   ROSTER = []
   
-  attr_accessor
+  attr_accessor : student
     
 end
