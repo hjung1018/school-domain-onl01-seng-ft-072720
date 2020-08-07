@@ -4,7 +4,7 @@ class School
   
   def initialize(student,roster)
     @student = student
-    roster = {}
+    @roster = {}
   end
   
   attr_reader :grade
@@ -13,7 +13,6 @@ class School
   
   ROSTER = {}
   
-    
 end
 
 # require 'spec_helper'
