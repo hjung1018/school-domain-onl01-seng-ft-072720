@@ -24,33 +24,9 @@ class School
 end
 
 
-# require 'spec_helper'
 
-# describe 'School' do
-#   before :each do
-#     @school = School.new("Test School")
-#   end
 
-#   describe "::new" do
-#     it 'has an empty roster when initialized' do
-#       expect(@school.roster.length).to eq(0)
-#     end
-#   end
-
-#   describe "#add_student" do
-#     it 'is able to add a student' do
-#       @school.add_student("AC Slater", 10)
-#       expect(@school.roster).to eq({10 => ["AC Slater"]})
-#     end
-
-#     it 'is able to add multiple students to a class (grade)' do
-#       @school.add_student("Jeff Baird", 10)
-#       @school.add_student("Blake Johnson", 10)
-
-#       expect(@school.roster).to eq({10 => ["Jeff Baird", "Blake Johnson"]})
-#     end
-
-#     it 'is able to add students to different grades' do
+#   
 #       @school.add_student("Homer Simpson", 9)
 #       @school.add_student("Jeff Baird", 10)
 #       @school.add_student("Avi Flombaum", 10)
