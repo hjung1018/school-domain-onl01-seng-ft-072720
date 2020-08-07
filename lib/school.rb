@@ -2,8 +2,8 @@ class School
   
   attr_accessor :student
   
-  def initialize(student,roster)
-    @student = student
+  def initialize(roster)
+  
     @roster = {}
   end
   
