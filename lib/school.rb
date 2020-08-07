@@ -10,6 +10,7 @@ class School
   attr_reader :grade
   
   attr_writer :add_student
+  
   ROSTER = {}
   
     
