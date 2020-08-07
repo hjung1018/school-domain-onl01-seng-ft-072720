@@ -4,7 +4,6 @@ class School
   
   def initialize(student)
     @student = student
-    
   end
   
   attr_reader :student
