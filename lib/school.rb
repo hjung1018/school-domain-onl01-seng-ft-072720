@@ -1,12 +1,12 @@
 class School
   
-  attr_accessor : student
+  attr_accessor :student
   
   def initialize(student)
     @student = student
   end
   
-  attr_reader :student
+  attr_reader :grade
   
   ROSTER = []
   
