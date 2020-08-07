@@ -1,6 +1,6 @@
 class School
   ROSTER = []
   
-  def add_student
+  attr_accessor
     
 end
