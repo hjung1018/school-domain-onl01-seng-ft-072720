@@ -7,7 +7,7 @@ class School
   
   end
   
-  attr_reader :grade
+  attr_reader :@roster[grade]
   
   attr_writer :add_student
     
