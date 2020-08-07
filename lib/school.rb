@@ -3,8 +3,8 @@ class School
   attr_accessor :student, :roster
   
   def initialize(roster)
-    @roster = roster
-    roster = {}
+    @roster = {}
+  
   end
   
   attr_reader :grade
