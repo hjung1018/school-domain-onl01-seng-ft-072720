@@ -1,5 +1,6 @@
 class School
   ROSTER = []
   
-  add_student
+  def add_student
+    
 end
