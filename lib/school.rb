@@ -4,11 +4,12 @@ class School
   
   def initialize(student)
     @student = student
+    roster = {}
   end
   
   attr_reader :grade
   
-  ROSTER = []
+  ROSTER = {}
   
     
 end
