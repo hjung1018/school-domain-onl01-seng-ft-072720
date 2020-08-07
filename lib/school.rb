@@ -7,8 +7,6 @@ class School
   
   end
   
-  attr_reader :@roster[grade]
-  
   attr_writer :add_student
     
   def add_student(name, grade)
@@ -16,10 +14,15 @@ class School
     @roster[grade] << name
   end
   
+  def grade(grade)
+    @roster[grade]
+  end
+  
   def sort
     @roster.sort
   end
 end
+
 
 # require 'spec_helper'
 
